@@ -1,0 +1,541 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Roles/GetRoles": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Roles/PostRole": {
+      "post": {
+        "tags": [
+          "Roles"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleCreateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleCreateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleCreateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Roles/{id}": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleUpdateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleUpdateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoleUpdateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/GetUser": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/CreateUser": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LoginModel": {
+        "required": [
+          "password",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterModel": {
+        "required": [
+          "email",
+          "firstName",
+          "lastName",
+          "password",
+          "username"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "username": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "roleIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleCreateModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RolePermissionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RolePermissionModel": {
+        "type": "object",
+        "properties": {
+          "permissionId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "canRead": {
+            "type": "boolean"
+          },
+          "canWrite": {
+            "type": "boolean"
+          },
+          "canUpdate": {
+            "type": "boolean"
+          },
+          "canDelete": {
+            "type": "boolean"
+          },
+          "canPrint": {
+            "type": "boolean"
+          },
+          "canView": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleUpdateModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RolePermissionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserCreateRequest": {
+        "required": [
+          "email",
+          "firstName",
+          "lastName",
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "phoneNumber": {
+            "maxLength": 11,
+            "type": "string",
+            "format": "tel",
+            "nullable": true
+          },
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "roleIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserUpdateModel": {
+        "required": [
+          "email",
+          "firstName",
+          "lastName",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "lastName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: 'Bearer {token}'",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\waleed\\Live\\Webapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\migrations\\20250828093528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\migrations\\20250828093528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\migrations\\20250902044503_updateroleguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\migrations\\20250902044503_updateroleguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\migrations\\20250829114418_updatepermissionguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\migrations\\20250829114418_updatepermissionguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|d:\\waleed\\live\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2AABC01-A41B-4871-81E6-26A14199E165}|Webapi\\Webapi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250828093528_InitialCreate.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250828093528_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Webapi\\Migrations\\20250828093528_InitialCreate.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250828093528_InitialCreate.cs",
+              "RelativeToolTip": "Webapi\\Migrations\\20250828093528_InitialCreate.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAIwE0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T06:55:05.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250829114418_UpdatePermissionGuid.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250829114418_UpdatePermissionGuid.cs",
+              "RelativeDocumentMoniker": "Webapi\\Migrations\\20250829114418_UpdatePermissionGuid.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250829114418_UpdatePermissionGuid.cs",
+              "RelativeToolTip": "Webapi\\Migrations\\20250829114418_UpdatePermissionGuid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T04:40:30.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250902044503_UpdateRoleGuid.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250902044503_UpdateRoleGuid.cs",
+              "RelativeDocumentMoniker": "Webapi\\Migrations\\20250902044503_UpdateRoleGuid.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\20250902044503_UpdateRoleGuid.cs",
+              "RelativeToolTip": "Webapi\\Migrations\\20250902044503_UpdateRoleGuid.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T04:46:54.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Webapi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Webapi\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:38:36.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Webapi\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Webapi\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T06:27:20.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\appsettings.json",
+              "RelativeDocumentMoniker": "Webapi\\appsettings.json",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\appsettings.json",
+              "RelativeToolTip": "Webapi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-01T07:37:23.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Webapi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Webapi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T09:35:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Webapi\\Services\\AuthService.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Services\\AuthService.cs",
+              "RelativeToolTip": "Webapi\\Services\\AuthService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:11:20.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Webapi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Webapi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T11:00:34.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Webapi.http",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Webapi.http",
+              "RelativeDocumentMoniker": "Webapi\\Webapi.http",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Webapi.http",
+              "RelativeToolTip": "Webapi\\Webapi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-28T11:00:24.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Webapi\\Models\\Role.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\Role.cs",
+              "RelativeToolTip": "Webapi\\Models\\Role.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:35:21.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "Webapi\\Models\\Permission.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\Permission.cs",
+              "RelativeToolTip": "Webapi\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:18:21.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Webapi\\Models\\RegisterModel.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Webapi\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:18:19.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Webapi\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Webapi\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:15:49.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Webapi\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Webapi\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowEUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:11:43.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Webapi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Webapi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T06:04:21.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Webapi\\Models\\User.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Models\\User.cs",
+              "RelativeToolTip": "Webapi\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T10:03:33.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\waleed\\Live\\Webapi\\Webapi\\Program.cs",
+              "RelativeDocumentMoniker": "Webapi\\Program.cs",
+              "ToolTip": "D:\\waleed\\Live\\Webapi\\Webapi\\Program.cs*",
+              "RelativeToolTip": "Webapi\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAD4vxIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T09:58:52.012Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
