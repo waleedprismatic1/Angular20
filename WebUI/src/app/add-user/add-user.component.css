@@ -1,0 +1,9 @@
+button[color="warn"] {
+  background-color: #f44336; /* Angular Material warn main color */
+  color: white;
+}
+
+button[color="primary"] {
+  background-color: #1976d2; /* Angular Material primary color */
+  color: white;
+}

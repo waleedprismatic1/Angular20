@@ -1,0 +1,4 @@
+button[color="primary"] {
+  background-color: #1976d2; /* Angular Material primary color */
+  color: white;
+}
